@@ -24,6 +24,7 @@
 
 .container .img-wrapper{
     position: absolute;
+    width: 500px;
     left: 0;
     top: 0;
     overflow: hidden;
@@ -40,7 +41,7 @@
     cursor: ew-resize;
     background: #fff;
     position: absolute;
-    left: 0;
+    left: 500px;
     top: 0;
 }
 .container .resizeLine .resizeIcon{
