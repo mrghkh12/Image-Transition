@@ -11,3 +11,16 @@
     justify-content: center;
     background: #f3fbff;
 }
+
+.container .img-box{
+    width: 60%;
+    margin: auto;
+    line-height: 0;
+    background-image: url(../image/background.png);
+    overflow: hidden;
+}
+
+.container .img-box .imgTransparent{
+    width: 100%;
+    height: auto;
+}
