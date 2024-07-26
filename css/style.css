@@ -18,9 +18,18 @@
     line-height: 0;
     background-image: url(../image/background.png);
     overflow: hidden;
+    position: relative;
 }
 
-.container .img-box .imgTransparent{
+.container .img-wrapper{
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+}
+
+.container .img-box .imgTransparent,
+.container .img-wrapper .main-img{
     width: 100%;
     height: auto;
 }
