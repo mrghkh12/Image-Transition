@@ -28,8 +28,7 @@
     overflow: hidden;
 }
 
-.container .img-box .imgTransparent,
-.container .img-wrapper .main-img{
+.container .img-box .imgTransparent{
     width: 100%;
     height: auto;
 }
