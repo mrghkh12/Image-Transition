@@ -10,6 +10,7 @@
     align-items: center;
     justify-content: center;
     background: #f3fbff;
+    position: relative;
 }
 
 .container .img-box{
@@ -31,4 +32,21 @@
 .container .img-box .imgTransparent{
     width: 100%;
     height: auto;
+}
+
+.container .resizeLine{
+    width: 1px;
+    height: 100%;
+    cursor: ew-resize;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.container .resizeLine .resizeIcon{
+    width: 40px;
+    position: absolute;
+    top: 50%;
+    margin-left: -20px;
+    margin-top: -20px;
 }
