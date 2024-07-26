@@ -12,3 +12,7 @@ const $ = document
     imgWrapper.style.width =  (e.pageX - imgBox.offsetLeft) + 'px'
     resizeLine.style.left = (e.pageX - imgBox.offsetLeft) + 'px'
  })
+ imgBox.addEventListener('touchmove', e => {
+    imgWrapper.style.width =  (e.targetTouches[0].pageX - imgBox.offsetLeft) + 'px'
+    resizeLine.style.left = (e.targetTouches[0].pageX - imgBox.offsetLeft) + 'px'
+ })
