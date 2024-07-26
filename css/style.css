@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f3fbff;
+  position: relative;
+}
+
+.container .img-box {
+  width: 60%;
+  margin: auto;
+  line-height: 0;
+  background-image: url(../image/background.png);
+  overflow: hidden;
+  position: relative;
+}
+
+.container .img-wrapper {
+  position: absolute;
+  width: 20%;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+}
+
+.container .img-box .imgTransparent {
+  width: 100%;
+  height: auto;
+}
+
+.container .resizeLine {
+  width: 1px;
+  height: 100%;
+  cursor: ew-resize;
+  background: #fff;
+  position: absolute;
+  left: 20%;
+  top: 0;
+}
+.container .resizeLine .resizeIcon {
+  width: 40px;
+  position: absolute;
+  top: 50%;
+  margin-left: -20px;
+  margin-top: -20px;
+}
